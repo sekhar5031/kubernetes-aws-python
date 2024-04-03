@@ -1,0 +1,8 @@
+config:
+  aws:region: us-east-2
+  kubernetes-aws-python:desiredClusterSize: "2"
+  kubernetes-aws-python:eksNodeInstanceType: t2.medium
+  kubernetes-aws-python:maxClusterSize: "3"
+  kubernetes-aws-python:minClusterSize: "2"
+  kubernetes-aws-python:vpcNetworkCidr: 10.0.0.0/16
+  pulumi:template: kubernetes-aws-python
